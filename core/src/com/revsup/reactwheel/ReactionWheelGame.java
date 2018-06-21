@@ -21,7 +21,7 @@ public class ReactionWheelGame extends ApplicationAdapter {
 
 	@Override
 	public void render () {
-		Gdx.gl.glClearColor(38/255f,50/255f,56/255f,1f);
+		Gdx.gl.glClearColor(175/255f,250/255f,235/255f,1f);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		w.render();
 	}
